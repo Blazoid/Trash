@@ -1,1402 +1,569 @@
-_G.dropslist = {
-    ["0"] = {
-        ["Bow"] = 0,
-      ["Crossbow"] = 0,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 1,
-    },
-    ["10"] = {
-        ["Bow"] = 0,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 0,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 1,
-    },
-    ["20"] = {
-        ["Bow"] = 0,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 0,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 1,
-    },
-    ["30"] = {
-        ["Bow"] = 1,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 0,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 1,
-		["UZI"] = 1,
-    },
-    ["40"] = {
-        ["Bow"] = 5,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 0,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 1,
-    },
-    ["50"] = {
-        ["Bow"] = 4,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 0,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 1,
-    },
-    ["60"] = {
-        ["Bow"] = 5,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 0,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 1,
-    },
-    ["70"] = {
-        ["Bow"] = 5,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 0,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 2,
-    },
-    ["80"] = {
-        ["Bow"] = 6,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 2,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 2,
-    },
-    ["90"] = {
-        ["Bow"] = 7,
-      ["Crossbow"] = 0,
-      ["PipePistol"] = 3,
-      ["USP9"] = 0,
-      ["HMAR"] = 1,
-        ["M4A1"] = 1,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 2,
-    },
-    ["100"] = {
-        ["Bow"] = 7,
-      ["Crossbow"] = 4,
-      ["PipePistol"] = 4,
-      ["USP9"] = 1,
-      ["HMAR"] = 10,
-        ["M4A1"] = 10,
-        ["SCAR"] = 1,
-        ["PipeSMG"] = 3,
-        ["USP9"] = 2,
-    },
-    ["110"] = {
-        ["Bow"] = 7,
-      ["Crossbow"] = 4,
-      ["PipePistol"] = 5,
-      ["USP9"] = 3,
-      ["HMAR"] = 10,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 3,
-    },
-    ["120"] = {
-        ["Bow"] = 7,
-      ["Crossbow"] = 6,
-      ["PipePistol"] = 6,
-      ["USP9"] = 4,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 3,
-    },
-    ["130"] = {
-        ["Bow"] = 8,
-      ["Crossbow"] = 6,
-      ["PipePistol"] = 6,
-      ["USP9"] = 5,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 3,
-    },
-    ["140"] = {
-        ["Bow"] = 8,
-      ["Crossbow"] = 7,
-      ["PipePistol"] = 6,
-      ["USP9"] = 6,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 3,
-    },
-    ["150"] = {
-        ["Bow"] = 8,
-      ["Crossbow"] = 7,
-      ["PipePistol"] = 6,
-      ["USP9"] = 7,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 4,
-        ["USP9"] = 4,
-    },
-    ["160"] = {
-        ["Bow"] = 9,
-      ["Crossbow"] = 7,
-      ["PipePistol"] = 6,
-      ["USP9"] = 6,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 4,
-    },
-    ["170"] = {
-        ["Bow"] = 9,
-      ["Crossbow"] = 7,
-      ["PipePistol"] = 6,
-      ["USP9"] = 6,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 4,
-    },
-    ["180"] = {
-        ["Bow"] = 10,
-      ["Crossbow"] = 7,
-      ["PipePistol"] = 6,
-      ["USP9"] = 6,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 5,
-    },
-    ["190"] = {
-        ["Bow"] = 11,
-      ["Crossbow"] = 8,
-      ["PipePistol"] = 6,
-      ["USP9"] = 6,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 5,
-    },
-    ["200"] = {
-        ["Bow"] = 12,
-      ["Crossbow"] = 8,
-      ["PipePistol"] = 6,
-      ["USP9"] = 7,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 5,
-    },
-    ["210"] = {
-        ["Bow"] = 13,
-      ["Crossbow"] = 8,
-      ["PipePistol"] = 7,
-      ["USP9"] = 7,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 5,
-    },
-    ["220"] = {
-        ["Bow"] = 14,
-      ["Crossbow"] = 9,
-      ["PipePistol"] = 7,
-      ["USP9"] = 7,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 6,
-    },
-    ["230"] = {
-        ["Bow"] = 15,
-      ["Crossbow"] = 9,
-      ["PipePistol"] = 7,
-      ["USP9"] = 7,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 6,
-    },
-    ["240"] = {
-        ["Bow"] = 16,
-      ["Crossbow"] = 9,
-      ["PipePistol"] = 8,
-      ["USP9"] = 7,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 6,
-    },
-    ["250"] = {
-        ["Bow"] = 17,
-      ["Crossbow"] = 10,
-      ["PipePistol"] = 8,
-      ["USP9"] = 8,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 6,
-    },
-    ["260"] = {
-        ["Bow"] = 19,
-      ["Crossbow"] = 10,
-      ["PipePistol"] = 8,
-      ["USP9"] = 8,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 7,
-    },
-    ["270"] = {
-        ["Bow"] = 20,
-      ["Crossbow"] = 11,
-      ["PipePistol"] = 9,
-      ["USP9"] = 8,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 7,
-    },
-    ["280"] = {
-        ["Bow"] = 22,
-      ["Crossbow"] = 11,
-      ["PipePistol"] = 9,
-      ["USP9"] = 8,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 9,
-        ["PipeSMG"] = 7,
-    },
-    ["290"] = {
-        ["Bow"] = 24,
-      ["Crossbow"] = 12,
-      ["PipePistol"] = 10,
-      ["USP9"] = 8,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 10,
-        ["PipeSMG"] = 8,
-    },
-    ["300"] = {
-        ["Bow"] = 26,
-      ["Crossbow"] = 12,
-      ["PipePistol"] = 10,
-      ["USP9"] = 9,
-      ["HMAR"] = 9,
-        ["M4A1"] = 10,
-        ["SCAR"] = 10,
-        ["PipeSMG"] = 8,
-    },
-    ["310"] = {
-        ["Bow"] = 28,
-      ["Crossbow"] = 12,
-      ["PipePistol"] = 11,
-      ["USP9"] = 9,
-      ["HMAR"] = 10,
-        ["M4A1"] = 11,
-        ["SCAR"] = 10,
-        ["PipeSMG"] = 8,
-    },
-    ["320"] = {
-        ["Bow"] = 30,
-      ["Crossbow"] = 13,
-      ["PipePistol"] = 11,
-      ["USP9"] = 9,
-      ["HMAR"] = 10,
-        ["M4A1"] = 11,
-        ["SCAR"] = 10,
-        ["PipeSMG"] = 9,
-    },
-    ["330"] = {
-        ["Bow"] = 33,
-      ["Crossbow"] = 14,
-      ["PipePistol"] = 12,
-      ["USP9"] = 9,
-      ["HMAR"] = 10,
-        ["M4A1"] = 11,
-        ["SCAR"] = 11,
-        ["PipeSMG"] = 9,
-    },
-    ["340"] = {
-        ["Bow"] = 35,
-      ["Crossbow"] = 15,
-      ["PipePistol"] = 12,
-      ["USP9"] = 10,
-      ["HMAR"] = 10,
-        ["M4A1"] = 11,
-        ["SCAR"] = 11,
-        ["PipeSMG"] = 9,
-    },
-    ["350"] = {
-        ["Bow"] = 38,
-      ["Crossbow"] = 15,
-      ["PipePistol"] = 13,
-      ["USP9"] = 10,
-      ["HMAR"] = 11,
-        ["M4A1"] = 12,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 10,
-    },
-    ["360"] = {
-        ["Bow"] = 41,
-      ["Crossbow"] = 16,
-      ["PipePistol"] = 13,
-      ["USP9"] = 11,
-      ["HMAR"] = 11,
-        ["M4A1"] = 12,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 10,
-    },
-    --//Bow MAX
-    ["370"] = {
-        ["Bow"] = 45, 
-      ["Crossbow"] = 17,
-      ["PipePistol"] = 14,
-      ["USP9"] = 11,
-      ["HMAR"] = 11,
-        ["M4A1"] = 12,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 11,
-    },
-    --//
-    ["380"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 18,
-      ["PipePistol"] = 15,
-      ["USP9"] = 11,
-      ["HMAR"] = 12,
-        ["M4A1"] = 13,
-        ["SCAR"] = 13,
-        ["PipeSMG"] = 11,
-    },
-    ["390"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 19,
-      ["PipePistol"] = 15,
-      ["USP9"] = 12,
-      ["HMAR"] = 12,
-        ["M4A1"] = 13,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 11,
-    },
-    ["400"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 20,
-      ["PipePistol"] = 16,
-      ["USP9"] = 12,
-      ["HMAR"] = 12,
-        ["M4A1"] = 13,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 12,
-    },
-    ["410"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 21,
-      ["PipePistol"] = 17,
-      ["USP9"] = 13,
-      ["HMAR"] = 12,
-        ["M4A1"] = 13,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 12,
-    },
-    ["420"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 22,
-      ["PipePistol"] = 18,
-      ["USP9"] = 13,
-      ["HMAR"] = 13,
-        ["M4A1"] = 15,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 13,
-    },
-    ["430"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 23,
-      ["PipePistol"] = 19,
-      ["USP9"] = 13,
-      ["HMAR"] = 14,
-        ["M4A1"] = 16,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 13,
-    },
-    ["440"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 24,
-      ["PipePistol"] = 19,
-      ["USP9"] = 14,
-      ["HMAR"] = 14,
-        ["M4A1"] = 16,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 14,
-    },
-    ["450"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 26,
-      ["PipePistol"] = 20,
-      ["USP9"] = 14,
-      ["HMAR"] = 14,
-        ["M4A1"] = 16,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 14,
-    },
-    ["460"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 27,
-      ["PipePistol"] = 21,
-      ["USP9"] = 15,
-      ["HMAR"] = 15,
-        ["M4A1"] = 17,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 15,
-    },
-    ["470"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 29,
-      ["PipePistol"] = 22,
-      ["USP9"] = 16,
-      ["HMAR"] = 15,
-        ["M4A1"] = 18,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 16,
-    },
-    ["480"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 30,
-      ["PipePistol"] = 24,
-      ["USP9"] = 16,
-      ["HMAR"] = 15,
-        ["M4A1"] = 19,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 16,
-    },
-    ["490"] = {
-        ["Bow"] = 45,
-      ["Crossbow"] = 32,
-      ["PipePistol"] = 25,
-      ["USP9"] = 17,
-      ["HMAR"] = 15,	
-        ["M4A1"] = 19,
-        ["SCAR"] = 12,
-        ["PipeSMG"] = 17,
-    },
-    ["500"] = {
-        ["Bow"] = 45,
-      ["PipePistol"] = 26,
-      ["USP9"] = 18,
-      ["HMAR"] = 16,
-        ["M4A1"] = 20,
-        ["SCAR"] = 18,
-        ["PipeSMG"] = 17,
-    },
-    ["510"] = {
-        ["Bow"] = 45,
-      ["PipePistol"] = 27,
-      ["USP9"] = 18,
-      ["HMAR"] = 16,
-        ["M4A1"] = 20,
-        ["SCAR"] = 18,
-        ["PipeSMG"] = 18,
-    },
-    ["520"] = {
-        ["Bow"] = 45,
-      ["PipePistol"] = 29,
-      ["USP9"] = 19,
-      ["HMAR"] = 17,
-        ["M4A1"] = 21,
-        ["SCAR"] = 21,
-        ["PipeSMG"] = 19,
-    },
-    ["530"] = {
-        ["Bow"] = 45,
-      ["PipePistol"] = 30,
-      ["USP9"] = 20,
-      ["HMAR"] = 18,
-        ["M4A1"] = 21,
-        ["SCAR"] = 21.5,
-        ["PipeSMG"] = 20,
-    },
-    ["540"] = {
-        ["Bow"] = 45,
-      ["PipePistol"] = 31,
-      ["USP9"] = 20,
-      ["HMAR"] = 18,
-        ["M4A1"] = 21,
-        ["SCAR"] = 22,
-        ["PipeSMG"] = 21,
-    },
-    ["550"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 21,
-      ["HMAR"] = 18,
-        ["M4A1"] = 22,
-        ["SCAR"] = 22,
-        ["PipeSMG"] = 22,
-    },
-    ["560"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 22,
-      ["HMAR"] = 19,
-        ["M4A1"] = 23,
-        ["SCAR"] = 23,
-        ["PipeSMG"] = 23,
-    },
-    ["570"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 23,
-      ["HMAR"] = 19,
-        ["M4A1"] = 23,
-        ["SCAR"] = 23,
-        ["PipeSMG"] = 24,
-    },
-    ["580"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 24,
-      ["HMAR"] = 20,
-        ["M4A1"] = 24,
-        ["SCAR"] = 24,
-        ["PipeSMG"] = 25,
-    },
-    ["590"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 25,
-      ["HMAR"] = 21,
-        ["M4A1"] = 25,
-        ["SCAR"] = 24,
-    },
-    ["600"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 26,
-      ["HMAR"] = 22,
-        ["M4A1"] = 26,
-        ["SCAR"] = 26,
-    },
-    ["610"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 27,
-      ["HMAR"] = 22,
-        ["M4A1"] = 27,
-        ["SCAR"] = 27,
-    },
-    ["620"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 28,
-      ["HMAR"] = 23,
-        ["M4A1"] = 27,
-        ["SCAR"] = 27,
-    },
-    ["630"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 29,
-      ["HMAR"] = 24,
-        ["M4A1"] = 28,
-        ["SCAR"] = 28,
-    },
-    ["640"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 31,
-      ["HMAR"] = 24,
-        ["M4A1"] = 28,
-        ["SCAR"] = 28,
-        ["LeverActionRifle"] = 1,
-    },
-    ["650"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 32,
-      ["HMAR"] = 25,
-        ["M4A1"] = 29,
-        ["SCAR"] = 29,
-        ["LeverActionRifle"] = 1,
-    },
-    ["660"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 33,
-      ["HMAR"] = 26.5,
-        ["M4A1"] = 30,
-        ["SCAR"] = 30,
-        ["LeverActionRifle"] = 1,
-    },
-    ["670"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 34.5,
-      ["HMAR"] = 27,
-        ["M4A1"] = 31,
-        ["SCAR"] = 31,
-        ["LeverActionRifle"] = 1,
-    },
-    ["680"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 36,
-      ["HMAR"] = 28,
-        ["M4A1"] = 32,
-        ["SCAR"] = 32,
-        ["LeverActionRifle"] = 1,
-    },
-    ["690"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 37,
-      ["HMAR"] = 29,
-        ["M4A1"] = 33,
-        ["SCAR"] = 33,
-        ["LeverActionRifle"] = 1,
-    },
-    ["700"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 39,
-      ["HMAR"] = 30,
-        ["M4A1"] = 34,
-        ["SCAR"] = 34,
-        ["LeverActionRifle"] = 1,
-    },
-    ["710"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 41,
-      ["HMAR"] = 31,
-        ["M4A1"] = 35,
-        ["SCAR"] = 35,
-        ["LeverActionRifle"] = 1,
-    },
-    ["720"] = {
-        ["Bow"] = 45,
-      ["USP9"] = 42.5,
-      ["HMAR"] = 31,
-        ["M4A1"] = 36,
-        ["SCAR"] = 36,
-        ["LeverActionRifle"] = 1,
-    },
-    ["730"] = {
-        ["Bow"] = 45,
-      ["HMAR"] = 32,
-        ["M4A1"] = 38,
-        ["SCAR"] = 38,
-        ["LeverActionRifle"] = 1,
-    },
-    ["740"] = {
-        ["Bow"] = 45,
-      ["HMAR"] = 33,
-        ["M4A1"] = 39,
-        ["SCAR"] = 39,
-        ["LeverActionRifle"] = 1,
-    },
-    ["750"] = {
-        ["Bow"] = 45,
-      ["HMAR"] = 34,
-        ["M4A1"] = 40,
-        ["SCAR"] = 40,
-        ["LeverActionRifle"] = 1,
-    },
-    ["760"] = {
-        ["Bow"] = 45,
-      ["HMAR"] = 35,
-        ["M4A1"] = 41,
-        ["SCAR"] = 41,
-        ["LeverActionRifle"] = 1,
-    },
-    ["770"] = {
-        ["Bow"] = 45,
-      ["HMAR"] = 37,
-        ["M4A1"] = 43,
-        ["SCAR"] = 43,
-        ["LeverActionRifle"] = 1,
-    },
-    ["780"] = {
-        ["Bow"] = 45,
-      ["HMAR"] = 39,
-        ["M4A1"] = 45,
-        ["SCAR"] = 45,
-        ["LeverActionRifle"] = 1,
-    },
-    ["790"] = {
-        ["Bow"] = 45,
-      ["HMAR"] = 39,
-        ["M4A1"] = 46,
-        ["SCAR"] = 46,
-        ["LeverActionRifle"] = 1,
-    },
-    ["800"] = {
-        ["Bow"] = 45,
-        ["HMAR"] = 40,
-        ["M4A1"] = 47,
-        ["SCAR"] = 47,
-        ["LeverActionRifle"] = 1,
-    },
-    ["810"] = {
-        ["M4A1"] = 49,
-        ["LeverActionRifle"] = 1,
-    },
-    ["820"] = {
-      ["M4A1"] = 50,
-      ["LeverActionRifle"] = 1,
-    },
-    ["820"] = {
-      ["M4A1"] = 51,
-      ["LeverActionRifle"] = 1,
-    },
-    ["830"] = {
-      ["M4A1"] = 52,
-      ["LeverActionRifle"] = 1,
-    },
-    ["840"] = {
-      ["M4A1"] = 54,
-      ["LeverActionRifle"] = 1,
-    },
-    ["850"] = {
-      ["M4A1"] = 56,
-      ["LeverActionRifle"] = 1,
-    },
-    ["860"] = {
-      ["M4A1"] = 57,
-      ["LeverActionRifle"] = 1,
-    },
-    ["870"] = {
-      ["M4A1"] = 59,
-      ["LeverActionRifle"] = 1,
-    },
-    ["880"] = {
-      ["M4A1"] = 61,
-      ["LeverActionRifle"] = 1,
-    },
-    ["890"] = {
-      ["M4A1"] = 63,
-      ["LeverActionRifle"] = 1,
-    },
-    ["900"] = {
-      ["M4A1"] = 66,
-      ["LeverActionRifle"] = 1,
-    },
-    ["910"] = {
-      ["M4A1"] = 68,
-      ["LeverActionRifle"] = 1,
-    },
-    ["920"] = {
-      ["M4A1"] = 70,
-      ["LeverActionRifle"] = 1,
-    },
-    ["930"] = {
-      ["M4A1"] = 72,
-      ["LeverActionRifle"] = 1,
-    },
-    ["940"] = {
-      ["M4A1"] = 74,
-      ["LeverActionRifle"] = 1,
-    },
-    ["950"] = {
-      ["M4A1"] = 77,
-["LeverActionRifle"] = 1,
-    },
-    ["960"] = {
-      ["M4A1"] = 79,
-["LeverActionRifle"] = 1,
-    },
-    ["970"] = {
-      ["M4A1"] = 82,
-["LeverActionRifle"] = 1,
-    },
-    ["980"] = {
-      ["M4A1"] = 84,
-["LeverActionRifle"] = 1,
-    },
-    ["990"] = {
-      ["M4A1"] = 87,
-["LeverActionRifle"] = 1,
-    },
-    ["1000"] = {
-      ["M4A1"] = 90,
-      ["SCAR"] = 90,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1010"] = {
-      ["M4A1"] = 93,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1020"] = {
-      ["M4A1"] = 96,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1030"] = {
-      ["M4A1"] = 100,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1040"] = {
-      ["M4A1"] = 103,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1050"] = {
-      ["M4A1"] = 106,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1060"] = {
-      ["M4A1"] = 110,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1070"] = {
-      ["M4A1"] = 113,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1080"] = {
-      ["M4A1"] = 117,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1090"] = {
-      ["M4A1"] = 121,
-      ["LeverActionRifle"] = 1,	
-    },
-    ["1100"] = {
-      ["M4A1"] = 122,
-      ["LeverActionRifle"] = 1,
-    },
-    ["1110"] = {
-      ["M4A1"] = 129,
-      ["LeverActionRifle"] = 1,	
-    },
-    ["1120"] = {
-      ["M4A1"] = 133,
-      ["LeverActionRifle"] = 1,	
-    },
-    ["1130"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-    ["1140"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-    ["1150"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-          ["1160"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-          ["1170"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-          ["1180"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                ["1190"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-    ["1200"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                ["1210"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                ["1220"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                ["1230"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                ["1240"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                      ["1250"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                      ["1260"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                      ["1270"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                      ["1280"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                      ["1290"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                      ["1300"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-                      ["1310"] = {
-      ["LeverActionRifle"] = 1,	
-    },
-    ["1320"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-    ["1330"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-          ["1340"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-    ["1350"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-          ["1360"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                ["1370"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                      ["1380"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                      ["1390"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                      ["1400"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                      ["1410"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                      ["1420"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                            ["1430"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                                  ["1440"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                                        ["1450"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                                        ["1460"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                                        ["1470"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                                        ["1480"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                                        ["1490"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                                        ["1500"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-                                        ["1440"] = {
-      ["LeverActionRifle"] = 1,			  
-    },
-  }
+local plrs = game:GetService("Players")
+local rs = game:GetService("RunService")
+local plr = plrs.LocalPlayer
+local mouse = plr:GetMouse()
+local camera = workspace.CurrentCamera
+local worldToViewportPoint = camera.worldToViewportPoint
+local emptyCFrame = CFrame.new();
+local pointToObjectSpace = emptyCFrame.PointToObjectSpace
 
-  function DropDist(distance)
-    if distance <= 10 then
-        return "10"
-    elseif distance <= 20 then
-        return "20"
-    elseif distance <= 30 then
-        return "30"
-    elseif distance <= 40 then
-        return "40"
-    elseif distance <= 50 then
-        return "50"
-    elseif distance <= 60 then
-        return "60"
-    elseif distance <= 70 then
-        return "70"
-    elseif distance <= 80 then
-        return "80"
-    elseif distance <= 90 then
-        return "90"
-    elseif distance <= 100 then
-        return "100"
-    elseif distance <= 110 then
-        return "110"
-    elseif distance <= 120 then
-        return "120"
-    elseif distance <= 130 then
-        return "130"
-    elseif distance <= 140 then
-        return "140"
-    elseif distance <= 150 then
-        return "150"
-    elseif distance <= 160 then
-        return "160"
-    elseif distance <= 170 then
-        return "170"
-    elseif distance <= 180 then
-        return "180"
-    elseif distance <= 190 then
-        return "190"
-    elseif distance <= 200 then
-        return "200"
-    elseif distance <= 210 then
-        return "210"
-    elseif distance <= 220 then
-        return "220"
-    elseif distance <= 230 then
-        return "230"
-    elseif distance <= 240 then
-        return "240"
-    elseif distance <= 250 then
-        return "250"
-    elseif distance <= 260 then
-        return "260"
-    elseif distance <= 270 then
-        return "270"
-    elseif distance <= 280 then
-        return "280"
-    elseif distance <= 290 then
-        return "290"
-    elseif distance <= 300 then
-        return "300"
-    elseif distance <= 310 then
-        return "310"
-    elseif distance <= 320 then
-        return "320"
-    elseif distance <= 330 then
-        return "330"
-    elseif distance <= 340 then
-        return "340"
-    elseif distance <= 350 then
-        return "350"
-    elseif distance <= 360 then
-        return "360"
-    elseif distance <= 370 then
-        return "370"
-    elseif distance <= 380 then
-        return "380"
-    elseif distance <= 390 then
-        return "390"
-    elseif distance <= 400 then
-        return "400"
-    elseif distance <= 410 then
-        return "410"
-    elseif distance <= 420 then
-        return "420"
-    elseif distance <= 430 then
-        return "430"
-    elseif distance <= 440 then
-        return "440"
-    elseif distance <= 450 then
-        return "450"
-    elseif distance <= 460 then
-        return "460"
-    elseif distance <= 470 then
-        return "470"
-    elseif distance <= 480 then
-        return "480"
-    elseif distance <= 490 then
-        return "490"
-    elseif distance <= 500 then
-        return "500"
-    elseif distance <= 510 then
-        return "510"
-    elseif distance <= 520 then
-        return "520"
-    elseif distance <= 530 then
-        return "530"
-    elseif distance <= 540 then
-        return "540"
-    elseif distance <= 550 then
-        return "550"
-    elseif distance <= 560 then
-        return "560"
-    elseif distance <= 570 then
-        return "570"
-    elseif distance <= 580 then
-        return "580"
-    elseif distance <= 590 then
-        return "590"
-    elseif distance <= 600 then
-        return "600"
-    elseif distance <= 610 then
-        return "610"
-    elseif distance <= 620 then
-        return "620"
-    elseif distance <= 630 then
-        return "630"
-    elseif distance <= 640 then
-        return "640"
-    elseif distance <= 650 then
-        return "650"
-    elseif distance <= 660 then
-        return "660"
-    elseif distance <= 670 then
-        return "670"
-    elseif distance <= 680 then
-        return "680"
-    elseif distance <= 690 then
-        return "690"
-    elseif distance <= 700 then
-        return "700"
-    elseif distance <= 710 then
-        return "710"
-    elseif distance <= 720 then
-        return "720"
-    elseif distance <= 730 then
-        return "730"
-    elseif distance <= 740 then
-        return "740"
-    elseif distance <= 750 then
-        return "750"
-    elseif distance <= 760 then
-        return "760"
-    elseif distance <= 770 then
-        return "770"
-    elseif distance <= 780 then
-        return "780"
-    elseif distance <= 790 then
-        return "790"
-    elseif distance <= 800 then
-        return "800"
-    elseif distance <= 810 then
-        return "810"
-    elseif distance <= 820 then
-        return "820"
-    elseif distance <= 830 then
-        return "830" 
-    elseif distance <= 840 then
-        return "840"  
-    elseif distance <= 850 then
-        return "850"
-    elseif distance <= 860 then
-        return "860"  
-    elseif distance <= 870 then
-        return "870" 
-    elseif distance <= 880 then
-        return "880"
-   elseif distance <= 890 then
-        return "890"  
-  elseif distance <= 900 then
-        return "900" 	  
-  elseif distance <= 910 then
-        return "910" 
-  elseif distance <= 920 then
-        return "920"
-   elseif distance <= 930 then
-        return "930"
-  elseif distance <= 940 then
-        return "940" 	
-  elseif distance <= 950 then
-        return "950"  
-  elseif distance <= 960 then
-        return "960"
-  elseif distance <= 970 then
-        return "970" 
-  elseif distance <= 980 then
-        return "980"  	
-  elseif distance <= 990 then
-        return "990"
-  elseif distance <= 1000 then
-        return "1000" 
-elseif distance <= 1010 then
-        return "1010"
-elseif distance <= 1020 then
-        return "1020"
-elseif distance <= 1030 then
-        return "1030"
-elseif distance <= 1040 then
-        return "1040"
-elseif distance <= 1050 then
-        return "1050" 
-elseif distance <= 1060 then
-        return "1060"  
-elseif distance <= 1070 then
-        return "1070" 
-elseif distance <= 1080 then
-        return "1080" 
-elseif distance <= 1090 then
-        return "1090"
-elseif distance <= 1100 then
-        return "1100"
-      elseif distance <= 1110 then
-        return "1110"
-      elseif distance <= 1120 then
-        return "1120" 
-      elseif distance <= 1130 then
-        return "1130"
-      elseif distance <= 1140 then
-        return "1140"
-      elseif distance <= 1150 then
-        return "1150"
-      elseif distance <= 1160 then
-        return "1160" 
-      elseif distance <= 1170 then
-        return "1170"
-      elseif distance <= 1180 then
-        return "1180"
-      elseif distance <= 1190 then
-        return "1190"  
-      elseif distance <= 1200 then
-        return "1200"
-      elseif distance <= 1210 then
-        return "1210" 
-      elseif distance <= 1220 then
-        return "1220"   
-      elseif distance <= 1230 then
-        return "1230" 
-      elseif distance <= 1240 then
-        return "1240"
-      elseif distance <= 1250 then
-        return "1250"
-      elseif distance <= 1260 then
-        return "1260"
-      elseif distance <= 1270 then
-        return "1270"
-      elseif distance <= 1280 then
-        return "1280"
-      elseif distance <= 1290 then
-        return "1290"
-      elseif distance <= 1300 then
-        return "1300"
-      elseif distance <= 1310 then
-        return "1310"
-      elseif distance <= 1320 then
-        return "1320"
-      elseif distance <= 1330 then
-        return "1330"
-      elseif distance <= 1340 then
-        return "1340"
-      elseif distance <= 1350 then
-        return "1350"
-      elseif distance <= 1360 then
-        return "1360"
-      elseif distance <= 1370 then
-        return "1370"
-      elseif distance <= 1380 then
-        return "1380"
-      elseif distance <= 1390 then
-        return "1390"
-      elseif distance <= 1400 then
-        return "1400"
-      elseif distance <= 1410 then
-        return "1410"
-      elseif distance <= 1420 then
-        return "1420"
-      elseif distance <= 1430 then
-        return "1430"
-      elseif distance <= 1440 then
-        return "1440"
-      elseif distance <= 1450 then
-        return "1450"
-      elseif distance <= 1460 then
-        return "1460"
-      elseif distance <= 1470 then
-        return "1470"
-      elseif distance <= 1480 then
-        return "1480"
-      elseif distance <= 1490 then
-        return "1490"
-      elseif distance <= 1500 then
-        return "1500"     
-      elseif distance <= 1510 then
-        return "1510"
-      elseif distance <= 1520 then
-        return "1520" 
-      elseif distance <= 1530 then
-        return "1530" 
-      elseif distance <= 1540 then
-        return "1540"  
-      elseif distance <= 1550 then
-        return "1550"
-      elseif distance <= 1560 then
-        return "1560"
-      elseif distance <= 1570 then
-        return "1570"
-      elseif distance <= 1580 then
-        return "1580"
-      elseif distance <= 1590 then
-        return "1590" 
-      elseif distance <= 1600 then
-        return "1600"
-      elseif distance <= 1610 then
-        return "1610"
-      elseif distance <= 1620 then
-        return "1620"
-      elseif distance <= 1630 then
-        return "1630" 
-      elseif distance <= 1640 then
-        return "1640"
-      elseif distance <= 1650 then
-        return "1650" 
-      elseif distance <= 1660 then
-        return "1660"
-      elseif distance <= 1670 then
-        return "1670"
-      elseif distance <= 1680 then
-        return "1680"
-      elseif distance <= 1690 then
-        return "1690"
-      elseif distance <= 1700 then
-        return "1700"
-      elseif distance <= 1710 then
-        return "1710" 
-      elseif distance <= 1720 then
-        return "1720"
-      elseif distance <= 1730 then
-        return "1730"
-      elseif distance <= 1740 then
-        return "1740"
-      elseif distance <= 1750 then
-        return "1750"
-      elseif distance <= 1760 then
-        return "1760"
-      elseif distance <= 1770 then
-        return "1770"
-      elseif distance <= 1780 then
-        return "1780"
-      elseif distance <= 1790 then
-        return "1790"
-      elseif distance <= 1800 then
-        return "1800"
-      elseif distance <= 1810 then
-        return "1810"
-      elseif distance <= 1820 then
-        return "1820"
-      elseif distance <= 1830 then
-        return "1830"
-      elseif distance <= 1840 then
-        return "1840"
-      elseif distance <= 1850 then
-        return "1850"
-      elseif distance <= 1860 then
-        return "1860"
-      elseif distance <= 1870 then
-        return "1870"
-      elseif distance <= 1880 then
-        return "1880"
-      elseif distance <= 1890 then
-        return "1890" 
-      elseif distance <= 1900 then
-        return "1900"
-      elseif distance <= 1910 then
-        return "1910" 
-      elseif distance <= 1920 then
-        return "1920" 
-      elseif distance <= 1930 then
-        return "1930" 
-      elseif distance <= 1940 then
-        return "1940"
-      elseif distance <= 1950 then
-        return "1950"
-      elseif distance <= 1960 then
-        return "1960"
-      elseif distance <= 1970 then
-        return "1970"
-      elseif distance <= 1980 then
-        return "1980"
-      elseif distance <= 1990 then
-        return "1990"
-      elseif distance <= 2000 then
-        return "2000"
-    else 
-        return "2000"
+local Drawingnew = Drawing.new
+local Color3fromRGB = Color3.fromRGB
+local Vector3new = Vector3.new
+local Vector2new = Vector2.new
+local mathfloor = math.floor
+local mathceil = math.ceil
+local cross = Vector3new().Cross;
+local esp = {
+    players = {},
+    objects = {},
+    enabled = true,
+    teamcheck = false,
+    fontsize = 13,
+    font = 2,
+    maxdist = 0,
+    settings = {
+        name = {enabled = true, outline = false, displaynames = true, color = Color3fromRGB(255, 255, 255)},
+        box = {enabled = true, outline = false, color = Color3fromRGB(255, 255, 255)},
+        filledbox = {enabled = false, outline = false, transparency = 0.5, color = Color3fromRGB(255, 255, 255)},
+        healthbar = {enabled = false, size = 3, outline = false},
+        healthtext = {enabled = false, outline = false, color = Color3fromRGB(255, 255, 255)},
+        distance = {enabled = false, outline = false, color = Color3fromRGB(255, 255, 255)},
+        viewangle = {enabled = false, size = 6, color = Color3fromRGB(255, 255, 255)},
+        skeleton = {enabled = false, color = Color3fromRGB(255, 255, 255)},
+        tracer = {enabled = false, origin = "Middle", color = Color3fromRGB(255, 255, 255)},
+        arrow = {enabled = false, radius = 100, size = 10, filled = true, transparency = 1, color = Color3fromRGB(255, 255, 255)}
+    },
+    settings_chams = {
+        enabled = false,
+        teamcheck = false,
+        outline = false,
+        fill_color = Color3fromRGB(255, 255, 255),
+        outline_color = Color3fromRGB(0, 0, 0), 
+        fill_transparency = 0,
+        outline_transparency = 0,
+        autocolor = false,
+        visible_Color = Color3fromRGB(0, 255, 0),
+        invisible_Color = Color3fromRGB(255, 0, 0),
+    },
+    customsettings = {
+        enabled = false,
+        maxdist = 4000,
+        names = {enabled = false, outline = false, size = 13, color = Color3fromRGB(255, 255, 255)},
+        distance = {enabled = false, outline = false, color = Color3fromRGB(255, 255, 255)},
+        chams = {enabled = false, fill_transparency = 0, outline_transparency = 0, fill_color = Color3fromRGB(255, 255, 255), outline_color = Color3fromRGB(0, 0, 0)}
+    }
+}
+
+esp.NewDrawing = function(type, properties)
+    local newDrawing = Drawingnew(type)
+
+    for i,v in next, properties or {} do
+        newDrawing[i] = v
     end
-  end
+
+    return newDrawing
+end
+
+esp.NewCham = function(properties)
+    local newCham = Instance.new("Highlight", game.CoreGui)
+
+    for i,v in next, properties or {} do
+        newCham[i] = v
+    end
+
+    return newCham
+end
+
+esp.WallCheck = function(v)
+    local ray = Ray.new(camera.CFrame.p, (v.Position - camera.CFrame.p).Unit * 300)
+    local part, position = game:GetService("Workspace"):FindPartOnRayWithIgnoreList(ray, {plr.Character, camera}, false, true)
+    if part then
+        local hum = part.Parent:FindFirstChildOfClass("Humanoid")
+        if not hum then
+            hum = part.Parent.Parent:FindFirstChildOfClass("Humanoid")
+        end
+        if hum and v and hum.Parent == v.Parent then
+            local Vector, Visible = camera:WorldToScreenPoint(v.Position)
+            if Visible then
+                return true
+            end
+        end
+    end
+end
+
+esp.TeamCheck = function(v)
+    if plr.TeamColor == v.TeamColor then
+        return false
+    end
+
+    return true
+end
+
+esp.NewPlayer = function(v)
+    esp.players[v] = {
+        name = esp.NewDrawing("Text", {Color = Color3fromRGB(255, 255, 255), Outline = true, Center = true, Size = 13, Font = 2}),
+        filledbox = esp.NewDrawing("Square", {Color = Color3fromRGB(255, 255, 255), Transparency = esp.settings.transparency, Filled = esp.settings.filledbox.enabled}),
+        boxOutline = esp.NewDrawing("Square", {Color = Color3fromRGB(0, 0, 0), Thickness = 3}),
+        box = esp.NewDrawing("Square", {Color = Color3fromRGB(255, 255, 255), Thickness = 1}),
+        healthBarOutline = esp.NewDrawing("Line", {Color = Color3fromRGB(0, 0, 0), Thickness = 3}),
+        healthBar = esp.NewDrawing("Line", {Color = Color3fromRGB(255, 255, 255), Thickness = 1}),
+        healthText = esp.NewDrawing("Text", {Color = Color3fromRGB(255, 255, 255), Outline = true, Center = true, Size = 13, Font = 2}),
+        distance = esp.NewDrawing("Text", {Color = Color3fromRGB(255, 255, 255), Outline = true, Center = true, Size = 13, Font = 2}),
+        viewAngle = esp.NewDrawing("Line", {Color = Color3fromRGB(255, 255, 255), Thickness = 1}),
+        tracer = esp.NewDrawing("Line", {Color = Color3fromRGB(255, 255, 255), Thickness = 1}),
+        cham = esp.NewCham({FillColor = esp.settings_chams.fill_color, OutlineColor = esp.settings_chams.outline_color, FillTransparency = esp.settings_chams.fill_transparency, OutlineTransparency = esp.settings_chams.outline_transparency}),
+        arrow = esp.NewDrawing("Triangle", {Color = Color3fromRGB(255, 255, 255), Thickness = 1})
+    }
+end
+
+function CreateNameTag(Parent, Text)
+    local NameTag = Instance.new("BillboardGui", Parent)
+    NameTag.Size = UDim2.new(1,1, 1,1)
+    NameTag.Name = "ESP"
+    NameTag.AlwaysOnTop = true
+    local NameTag2 = Instance.new("Frame", NameTag)
+    NameTag2.Size = UDim2.new(1,1, 1,1)
+    NameTag2.BackgroundTransparency = 1
+    NameTag2.BorderSizePixel = 0
+    local NameTag3 = Instance.new("TextLabel", NameTag2)
+    NameTag3.Text = Text
+    NameTag3.Size = UDim2.new(1,1, 1,1)
+    NameTag3.BackgroundTransparency = 1
+    NameTag3.BorderSizePixel = 1
+    NameTag3.TextColor3 = Color3.fromRGB(255,255,255)
+end
+
+function CreateHighlight(Model)
+    local Highlight = Instance.new("Highlight")
+        Highlight.Name = "Chams"
+		Highlight.Parent = Model
+		Highlight.OutlineColor = esp.customsettings.chams.outline_color
+		Highlight.FillColor = esp.customsettings.chams.fill_color
+		Highlight.Enabled = true
+		Highlight.FillTransparency = esp.customsettings.chams.fill_transparency
+		Highlight.OutlineTransparency = esp.customsettings.chams.outline_transparency
+end
+
+local esp_Loop
+esp_Loop = rs.RenderStepped:Connect(function()
+    for i,v in pairs(esp.players) do
+        if i.Character and i.Character:FindFirstChild("Humanoid") and i.Character:FindFirstChild("HumanoidRootPart") and i.Character:FindFirstChild("Head") and i.Character:FindFirstChild("Humanoid").Health > 0 and (esp.maxdist == 0 or (i.Character.HumanoidRootPart.Position - plr.Character.HumanoidRootPart.Position).Magnitude < esp.maxdist) then
+            local hum = i.Character.Humanoid
+            local hrp = i.Character.HumanoidRootPart
+            local head = i.Character.Head
+
+            local Vector, onScreen = camera:WorldToViewportPoint(i.Character.HumanoidRootPart.Position)
+    
+            local Size = (camera:WorldToViewportPoint(hrp.Position - Vector3new(0, 3, 0)).Y - camera:WorldToViewportPoint(hrp.Position + Vector3new(0, 2.6, 0)).Y) / 2
+            local BoxSize = Vector2new(mathfloor(Size * 1.5), mathfloor(Size * 1.9))
+            local BoxPos = Vector2new(mathfloor(Vector.X - Size * 1.5 / 2), mathfloor(Vector.Y - Size * 1.6 / 2))
+    
+            local BottomOffset = BoxSize.Y + BoxPos.Y + 1
+
+            if onScreen and esp.settings_chams.enabled then
+                v.cham.Adornee = i.Character
+                v.cham.Enabled = esp.settings_chams.enabled
+                v.cham.OutlineTransparency = esp.settings_chams.outline and esp.settings_chams.outline_transparency or 1
+                v.cham.OutlineColor = esp.settings_chams.autocolor and esp.settings_chams.autocolor_outline and esp.WallCheck(i.Character.Head) and esp.settings_chams.visible_Color or esp.settings_chams.autocolor and esp.settings_chams.autocolor_outline and not esp.WallCheck(i.Character.Head) and esp.settings_chams.invisible_Color or esp.settings_chams.outline_color
+                v.cham.FillColor = esp.settings_chams.autocolor and esp.WallCheck(i.Character.Head) and esp.settings_chams.visible_Color or esp.settings_chams.autocolor and not esp.WallCheck(i.Character.Head) and esp.settings_chams.invisible_Color or esp.settings_chams.fill_color
+                v.cham.FillTransparency = esp.settings_chams.fill_transparency
+
+                if esp.settings_chams.teamcheck then
+                    if not esp.TeamCheck(i) then
+                        v.cham.Enabled = false
+                    end
+                end
+            else
+                v.cham.Enabled = false
+            end
+
+            if esp.settings.tracer.enabled and esp.enabled then
+                if esp.settings.tracer.origin == "Bottom" then
+                    v.tracer.From = Vector2new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y)
+                elseif esp.settings.tracer.origin == "Top" then
+                    v.tracer.From = Vector2new(workspace.CurrentCamera.ViewportSize.X / 2,0)
+                elseif esp.settings.tracer.origin == "Middle" then
+                    v.tracer.From = Vector2new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
+                else
+                    v.tracer.From = Vector2new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2)
+                end
+
+                v.tracer.To = Vector2new(Vector.X, Vector.Y)
+                v.tracer.Color = esp.settings.tracer.color
+                v.tracer.Visible = true
+            else
+                v.tracer.Visible = false
+            end
+
+            if onScreen and esp.enabled then
+                if esp.settings.name.enabled then
+                    v.name.Position = Vector2new(BoxSize.X / 2 + BoxPos.X, BoxPos.Y - 16)
+                    v.name.Outline = esp.settings.name.outline
+                    v.name.Color = esp.settings.name.color
+
+                    v.name.Font = esp.font
+                    v.name.Size = esp.fontsize
+
+                    if esp.settings.name.displaynames then
+                        v.name.Text = i.DisplayName
+                    else
+                        v.name.Text = i.Name
+                    end
+
+                    v.name.Visible = true
+                else
+                    v.name.Visible = false
+                end
+
+                if esp.settings.distance.enabled and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
+                    v.distance.Position = Vector2new(BoxSize.X / 2 + BoxPos.X, BottomOffset)
+                    v.distance.Outline = esp.settings.distance.outline
+                    v.distance.Text = "[" .. mathfloor((hrp.Position - plr.Character.HumanoidRootPart.Position).Magnitude) .. "m]"
+                    v.distance.Color = esp.settings.distance.color
+                    BottomOffset = BottomOffset + 15
+
+                    v.distance.Font = esp.font
+                    v.distance.Size = esp.fontsize
+
+                    v.distance.Visible = true
+                else
+                    v.distance.Visible = false
+                end
+
+                if esp.settings.filledbox.enabled then
+                    v.filledbox.Size = BoxSize + Vector2.new(-2, -2)
+                    v.filledbox.Position = BoxPos + Vector2.new(1, 1)
+                    v.filledbox.Color = esp.settings.filledbox.color
+                    v.filledbox.Transparency = esp.settings.filledbox.transparency
+                    v.filledbox.Visible = true
+                else
+                    v.filledbox.Visible = false
+                end
+
+                if esp.settings.box.enabled then
+                    v.boxOutline.Size = BoxSize
+                    v.boxOutline.Position = BoxPos
+                    v.boxOutline.Visible = esp.settings.box.outline
+    
+                    v.box.Size = BoxSize
+                    v.box.Position = BoxPos
+                    v.box.Color = esp.settings.box.color
+                    v.box.Visible = true
+                else
+                    v.boxOutline.Visible = false
+                    v.box.Visible = false
+                end
+
+                if esp.settings.healthbar.enabled then
+                    v.healthBar.From = Vector2new((BoxPos.X - 5), BoxPos.Y + BoxSize.Y)
+                    v.healthBar.To = Vector2new(v.healthBar.From.X, v.healthBar.From.Y - (hum.Health / hum.MaxHealth) * BoxSize.Y)
+                    v.healthBar.Color = Color3fromRGB(255 - 255 / (hum["MaxHealth"] / hum["Health"]), 255 / (hum["MaxHealth"] / hum["Health"]), 0)
+                    v.healthBar.Visible = true
+                    v.healthBar.Thickness = esp.settings.healthbar.size
+
+                    v.healthBarOutline.From = Vector2new(v.healthBar.From.X, BoxPos.Y + BoxSize.Y + 1)
+                    v.healthBarOutline.To = Vector2new(v.healthBar.From.X, (v.healthBar.From.Y - 1 * BoxSize.Y) -1)
+                    v.healthBarOutline.Visible = esp.settings.healthbar.outline
+                    v.healthBarOutline.Thickness = esp.settings.healthbar.size + 2
+                else
+                    v.healthBarOutline.Visible = false
+                    v.healthBar.Visible = false
+                end
+
+                if esp.settings.healthtext.enabled then
+                    v.healthText.Text = tostring(mathfloor(hum.Health))
+                    v.healthText.Position = Vector2new((BoxPos.X - 20), (BoxPos.Y + BoxSize.Y - 1 * BoxSize.Y) -1)
+                    v.healthText.Color = esp.settings.healthtext.color
+                    v.healthText.Outline = esp.settings.healthtext.outline
+
+                    v.healthText.Font = esp.font
+                    v.healthText.Size = esp.fontsize
+
+                    v.healthText.Visible = true
+                else
+                    v.healthText.Visible = false
+                end
+
+                if esp.settings.viewangle.enabled and head and head.CFrame then
+                    v.viewAngle.From = Vector2new(camera:worldToViewportPoint(head.CFrame.p).X, camera:worldToViewportPoint(head.CFrame.p).Y)
+                    v.viewAngle.To = Vector2new(camera:worldToViewportPoint((head.CFrame + (head.CFrame.lookVector * esp.settings.viewangle.size)).p).X, camera:worldToViewportPoint((head.CFrame + (head.CFrame.lookVector * esp.settings.viewangle.size)).p).Y)
+                    v.viewAngle.Color = esp.settings.viewangle.color
+                    v.viewAngle.Visible = true
+                else
+                    v.viewAngle.Visible = false
+                end
+                v.arrow.Visible = false
+                if esp.teamcheck then
+                    if esp.TeamCheck(i) then
+                        v.name.Visible = esp.settings.name.enabled
+                        v.box.Visible = esp.settings.box.enabled
+                        v.filledbox.Visible = esp.settings.filledbox.enabled
+                        v.healthBar.Visible = esp.settings.healthbar.enabled
+                        v.healthText.Visible = esp.settings.healthtext.enabled
+                        v.distance.Visible = esp.settings.distance.enabled
+                        v.viewAngle.Visible = esp.settings.viewangle.enabled
+                        v.tracer.Visible = esp.settings.tracer.enabled
+                        v.arrow.Visible = esp.settings.arrow.enabled
+                    else
+                        v.name.Visible = false
+                        v.boxOutline.Visible = false
+                        v.box.Visible = false
+                        v.filledbox.Visible = false
+                        v.healthBarOutline.Visible = false
+                        v.healthBar.Visible = false
+                        v.healthText.Visible = false
+                        v.distance.Visible = false
+                        v.viewAngle.Visible = false
+                        v.tracer.Visible = false
+                        v.arrow.Visible = false
+                    end
+                end
+            else
+                v.name.Visible = false
+                v.boxOutline.Visible = false
+                v.box.Visible = false
+                v.filledbox.Visible = false
+                v.healthBarOutline.Visible = false
+                v.healthBar.Visible = false
+                v.healthText.Visible = false
+                v.distance.Visible = false
+                v.viewAngle.Visible = false
+                v.tracer.Visible = false
+                if esp.enabled and esp.settings.arrow.enabled then
+                    local currentCamera = workspace.CurrentCamera
+                    local screenCenter = Vector2new(workspace.CurrentCamera.ViewportSize.X / 2, workspace.CurrentCamera.ViewportSize.Y / 2);
+                    local objectSpacePoint = (pointToObjectSpace(currentCamera.CFrame, hrp.Position) * Vector3new(1, 0, 1)).Unit;
+                    local crossVector = cross(objectSpacePoint, Vector3new(0, 1, 1));
+                    local rightVector = Vector2new(crossVector.X, crossVector.Z);
+
+                    local arrowRadius, arrowSize = esp.settings.arrow.radius, esp.settings.arrow.size;
+                    local arrowPosition = screenCenter + Vector2new(objectSpacePoint.X, objectSpacePoint.Z) * arrowRadius;
+                    local arrowDirection = (arrowPosition - screenCenter).Unit;
+
+                    local pointA, pointB, pointC = arrowPosition, screenCenter + arrowDirection * (arrowRadius - arrowSize) + rightVector * arrowSize, screenCenter + arrowDirection * (arrowRadius - arrowSize) + -rightVector * arrowSize;
+
+                    v.arrow.Visible = true
+                    v.arrow.Filled = esp.settings.arrow.filled;
+                    v.arrow.Transparency = esp.settings.arrow.transparency;
+                    v.arrow.Color = esp.settings.arrow.color
+                    v.arrow.PointA = pointA;
+                    v.arrow.PointB = pointB;
+                    v.arrow.PointC = pointC;
+                else
+                    v.arrow.Visible = false
+                end
+            end
+        else
+            v.name.Visible = false
+            v.boxOutline.Visible = false
+            v.box.Visible = false
+            v.filledbox.Visible = false
+            v.healthBarOutline.Visible = false
+            v.healthBar.Visible = false
+            v.healthText.Visible = false
+            v.distance.Visible = false
+            v.viewAngle.Visible = false
+            v.cham.Enabled = false
+            v.tracer.Visible = false
+            v.arrow.Visible = false
+        end
+    end
+end)
+
+local function DrawLine()
+    local l = Drawing.new("Line")
+    l.Visible = false
+    l.From = Vector2.new(0, 0)
+    l.To = Vector2.new(1, 1)
+    l.Color = esp.settings.skeleton.color
+    l.Thickness = 1
+    l.Transparency = 1
+    return l
+end
+
+local function Skeletonesp(plr)
+    repeat wait() until plr.Character ~= nil and plr.Character:FindFirstChild("Humanoid") ~= nil
+    local limbs = {}
+    local R15 = (plr.Character.Humanoid.RigType == Enum.HumanoidRigType.R15) and true or false
+    limbs = {
+        -- Spine
+        Head_UpperTorso = DrawLine(),
+        UpperTorso_LowerTorso = DrawLine(),
+        -- Left Arm
+        UpperTorso_LeftUpperArm = DrawLine(),
+        LeftUpperArm_LeftLowerArm = DrawLine(),
+        LeftLowerArm_LeftHand = DrawLine(),
+        -- Right Arm
+        UpperTorso_RightUpperArm = DrawLine(),
+        RightUpperArm_RightLowerArm = DrawLine(),
+        RightLowerArm_RightHand = DrawLine(),
+        -- Left Leg
+        LowerTorso_LeftUpperLeg = DrawLine(),
+        LeftUpperLeg_LeftLowerLeg = DrawLine(),
+        LeftLowerLeg_LeftFoot = DrawLine(),
+        -- Right Leg
+        LowerTorso_RightUpperLeg = DrawLine(),
+        RightUpperLeg_RightLowerLeg = DrawLine(),
+        RightLowerLeg_RightFoot = DrawLine(),
+    }
+    local function Visibility(state)
+        for i, v in pairs(limbs) do
+            v.Visible = state
+        end
+    end
+
+    local function Colorize(color)
+        for i, v in pairs(limbs) do
+            v.Color = color
+        end
+    end
+
+    local function UpdaterR15()
+        local connection
+        connection = game:GetService("RunService").RenderStepped:Connect(function()
+            if plr.Character ~= nil and plr.Character:FindFirstChild("Humanoid") ~= nil and plr.Character:FindFirstChild("HumanoidRootPart") ~= nil and plr.Character.Humanoid.Health > 0 then
+                local HUM, vis = camera:WorldToViewportPoint(plr.Character.HumanoidRootPart.Position)
+                if vis and esp.settings.skeleton.enabled and esp.enabled then
+                    -- Head
+                    local H = camera:WorldToViewportPoint(plr.Character.Head.Position)
+                    if limbs.Head_UpperTorso.From ~= Vector2.new(H.X, H.Y) then
+                        --Spine
+                        local UT = camera:WorldToViewportPoint(plr.Character.UpperTorso.Position)
+                        local LT = camera:WorldToViewportPoint(plr.Character.LowerTorso.Position)
+                        -- Left Arm
+                        local LUA = camera:WorldToViewportPoint(plr.Character.LeftUpperArm.Position)
+                        local LLA = camera:WorldToViewportPoint(plr.Character.LeftLowerArm.Position)
+                        local LH = camera:WorldToViewportPoint(plr.Character.LeftHand.Position)
+                        -- Right Arm
+                        local RUA = camera:WorldToViewportPoint(plr.Character.RightUpperArm.Position)
+                        local RLA = camera:WorldToViewportPoint(plr.Character.RightLowerArm.Position)
+                        local RH = camera:WorldToViewportPoint(plr.Character.RightHand.Position)
+                        -- Left leg
+                        local LUL = camera:WorldToViewportPoint(plr.Character.LeftUpperLeg.Position)
+                        local LLL = camera:WorldToViewportPoint(plr.Character.LeftLowerLeg.Position)
+                        local LF = camera:WorldToViewportPoint(plr.Character.LeftFoot.Position)
+                        -- Right leg
+                        local RUL = camera:WorldToViewportPoint(plr.Character.RightUpperLeg.Position)
+                        local RLL = camera:WorldToViewportPoint(plr.Character.RightLowerLeg.Position)
+                        local RF = camera:WorldToViewportPoint(plr.Character.RightFoot.Position)
+
+                        --Head
+                        limbs.Head_UpperTorso.From = Vector2.new(H.X, H.Y)
+                        limbs.Head_UpperTorso.To = Vector2.new(UT.X, UT.Y)
+
+                        --Spine
+                        limbs.UpperTorso_LowerTorso.From = Vector2.new(UT.X, UT.Y)
+                        limbs.UpperTorso_LowerTorso.To = Vector2.new(LT.X, LT.Y)
+
+                        -- Left Arm
+                        limbs.UpperTorso_LeftUpperArm.From = Vector2.new(UT.X, UT.Y)
+                        limbs.UpperTorso_LeftUpperArm.To = Vector2.new(LUA.X, LUA.Y)
+
+                        limbs.LeftUpperArm_LeftLowerArm.From = Vector2.new(LUA.X, LUA.Y)
+                        limbs.LeftUpperArm_LeftLowerArm.To = Vector2.new(LLA.X, LLA.Y)
+
+                        limbs.LeftLowerArm_LeftHand.From = Vector2.new(LLA.X, LLA.Y)
+                        limbs.LeftLowerArm_LeftHand.To = Vector2.new(LH.X, LH.Y)
+
+                        -- Right Arm
+                        limbs.UpperTorso_RightUpperArm.From = Vector2.new(UT.X, UT.Y)
+                        limbs.UpperTorso_RightUpperArm.To = Vector2.new(RUA.X, RUA.Y)
+
+                        limbs.RightUpperArm_RightLowerArm.From = Vector2.new(RUA.X, RUA.Y)
+                        limbs.RightUpperArm_RightLowerArm.To = Vector2.new(RLA.X, RLA.Y)
+
+                        limbs.RightLowerArm_RightHand.From = Vector2.new(RLA.X, RLA.Y)
+                        limbs.RightLowerArm_RightHand.To = Vector2.new(RH.X, RH.Y)
+
+                        -- Left Leg
+                        limbs.LowerTorso_LeftUpperLeg.From = Vector2.new(LT.X, LT.Y)
+                        limbs.LowerTorso_LeftUpperLeg.To = Vector2.new(LUL.X, LUL.Y)
+
+                        limbs.LeftUpperLeg_LeftLowerLeg.From = Vector2.new(LUL.X, LUL.Y)
+                        limbs.LeftUpperLeg_LeftLowerLeg.To = Vector2.new(LLL.X, LLL.Y)
+
+                        limbs.LeftLowerLeg_LeftFoot.From = Vector2.new(LLL.X, LLL.Y)
+                        limbs.LeftLowerLeg_LeftFoot.To = Vector2.new(LF.X, LF.Y)
+
+                        -- Right Leg
+                        limbs.LowerTorso_RightUpperLeg.From = Vector2.new(LT.X, LT.Y)
+                        limbs.LowerTorso_RightUpperLeg.To = Vector2.new(RUL.X, RUL.Y)
+
+                        limbs.RightUpperLeg_RightLowerLeg.From = Vector2.new(RUL.X, RUL.Y)
+                        limbs.RightUpperLeg_RightLowerLeg.To = Vector2.new(RLL.X, RLL.Y)
+
+                        limbs.RightLowerLeg_RightFoot.From = Vector2.new(RLL.X, RLL.Y)
+                        limbs.RightLowerLeg_RightFoot.To = Vector2.new(RF.X, RF.Y)
+                    end
+
+                    Colorize(esp.settings.skeleton.color)
+
+                    if limbs.Head_UpperTorso.Visible ~= true then
+                        Visibility(true)
+                    end
+                else 
+                    if limbs.Head_UpperTorso.Visible ~= false then
+                        Visibility(false)
+                    end
+                end
+            else 
+                if limbs.Head_UpperTorso.Visible ~= false then
+                    Visibility(false)
+                end
+                if game.Players:FindFirstChild(plr.Name) == nil then 
+                    for i, v in pairs(limbs) do
+                        v:Remove()
+                    end
+                    connection:Disconnect()
+                end
+            end
+        end)
+    end
+    
+    coroutine.wrap(UpdaterR15)()
+end
+
+for _,v in ipairs(plrs:GetPlayers()) do
+    if v ~= plr then
+        esp.NewPlayer(v)
+        Skeletonesp(v)
+    end
+end
+
+plrs.ChildAdded:Connect(function(v)
+    esp.NewPlayer(v)
+    Skeletonesp(v)
+end)
+
+plrs.PlayerRemoving:Connect(function(v)
+    for i2,v2 in pairs(esp.players[v]) do
+        pcall(function()
+            v2:Remove()
+            v2:Destroy()
+        end)
+    end
+
+    esp.players[v] = nil
+end)
+
+esp.Unload = function()
+    esp_Loop:Disconnect()
+    esp_Loop = nil
+    
+    for i,v in pairs(esp.players) do
+        for i2, v2 in pairs(v) do
+            if v2 == "cham" then
+                v2:Destroy()
+            else
+                v2:Remove()
+            end
+        end
+    end
+
+    table.clear(esp)
+    esp = nil
+end
+
+getgenv().esp = esp
+return esp
